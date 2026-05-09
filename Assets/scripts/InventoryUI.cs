@@ -18,6 +18,11 @@ public class InventoryUI : MonoBehaviour {
     }
 
     private void OnGUI() {
+        GUI.Label(
+            new Rect(20, 20, 200, 30),
+            isOpen ? "[I] Cerrar inventario" : "[I] Ver materiales"
+        );
+
         if (!isOpen) return;
 
         // Fondo del inventario
