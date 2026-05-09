@@ -2,16 +2,14 @@ using UnityEngine;
 
 public class PickupItem : MonoBehaviour, Interactable {
 
-    [SerializeField] private string itemName = "Item";
-    [SerializeField] private Sprite itemIcon;
+    [SerializeField] private ItemData itemData; // <- eso reemplazara el nombre y la información por lo que sea que tenga el objeto que pongamos (ItemName y Icon)
 
     public void Interact() {
-        //Añadir aquí el sistema de inventario, si es que lo hago
-        Debug.Log($"Recogiste: nombre item");
+        Debug.Log($"Recogiste: {itemData.itemName}");
         Destroy(gameObject);
     }
 
     public string GetPromptText() {
-        return $"[E] Recoger {itemName}";
+        return $"[E] Recoger {itemData.itemName}";
     }
 }

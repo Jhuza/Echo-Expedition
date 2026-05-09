@@ -42,4 +42,21 @@ public class PlayerInteract : MonoBehaviour {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, interactRange);
     }
+
+
+    // Para que el texto salga al acercarse al interactuable (como se diga)
+    private void OnGUI() {
+         if (currentInteractable != null) {
+            GUIStyle style = new GUIStyle();
+            style.fontSize = 24;
+            style.normal.textColor = Color.white;
+            style.alignment = TextAnchor.MiddleCenter;
+
+            GUI.Label(
+                new Rect(Screen.width / 2 - 150, Screen.height / 2 + 50, 300, 40),
+                currentInteractable.GetPromptText(),
+                style
+            );
+        }
+    }
 }
