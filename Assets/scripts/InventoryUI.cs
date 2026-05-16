@@ -18,27 +18,42 @@ public class InventoryUI : MonoBehaviour {
     }
 
     private void OnGUI() {
+        GUIStyle labelStyle = new GUIStyle();
+        labelStyle.fontSize = Mathf.RoundToInt(Screen.height * 0.025f);
+        labelStyle.normal.textColor = Color.white;
+
+        // Indicador siempre visible
         GUI.Label(
-            new Rect(20, 20, 200, 30),
-            isOpen ? "[I] Cerrar inventario" : "[I] Ver materiales"
+            new Rect(Screen.width * 0.02f, Screen.height * 0.02f, Screen.width * 0.2f, Screen.height * 0.05f),
+            isOpen ? "[I] Cerrar inventario" : "[I] Ver materiales",
+            labelStyle
         );
 
         if (!isOpen) return;
 
-        // Fondo del inventario
-        GUI.Box(new Rect(Screen.width / 2 - 150, 50, 300, 400), "Materiales recogidos");
+        float boxW = Screen.width * 0.25f;
+        float boxH = Screen.height * 0.5f;
+        float boxX = Screen.width / 2 - boxW / 2;
+        float boxY = Screen.height * 0.1f;
+
+        GUI.Box(new Rect(boxX, boxY, boxW, boxH), "Materiales recogidos");
 
         List<ItemData> items = inventory.GetItems();
 
         if (items.Count == 0) {
-            GUI.Label(new Rect(Screen.width / 2 - 100, 100, 200, 30), "No tienes materiales aún");
+            GUI.Label(
+                new Rect(boxX + 10, boxY + 30, boxW - 20, Screen.height * 0.04f),
+                "No tienes materiales aún",
+                labelStyle
+            );
             return;
         }
 
         for (int i = 0; i < items.Count; i++) {
             GUI.Label(
-                new Rect(Screen.width / 2 - 120, 100 + (i * 30), 250, 25),
-                $"• {items[i].itemName}"
+                new Rect(boxX + 10, boxY + 30 + (i * Screen.height * 0.04f), boxW - 20, Screen.height * 0.04f),
+                $"• {items[i].itemName}",
+                labelStyle
             );
         }
     }

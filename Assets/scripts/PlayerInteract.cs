@@ -15,7 +15,6 @@ public class PlayerInteract : MonoBehaviour {
         }
     }
 
-    // Para buscar el más cercano
     private void LookForInteractable() {
         Collider[] colliders = Physics.OverlapSphere(transform.position, interactRange);
 
@@ -33,7 +32,6 @@ public class PlayerInteract : MonoBehaviour {
         }
     }
 
-    // Para que muestre el prompt
     public string GetCurrentPrompt() {
         return currentInteractable != null ? currentInteractable.GetPromptText() : "";
     }
@@ -43,17 +41,15 @@ public class PlayerInteract : MonoBehaviour {
         Gizmos.DrawWireSphere(transform.position, interactRange);
     }
 
-
-    // Para que el texto salga al acercarse al interactuable (como se diga)
     private void OnGUI() {
-         if (currentInteractable != null) {
+        if (currentInteractable != null) {
             GUIStyle style = new GUIStyle();
-            style.fontSize = 24;
+            style.fontSize = Mathf.RoundToInt(Screen.height * 0.03f);
             style.normal.textColor = Color.white;
             style.alignment = TextAnchor.MiddleCenter;
 
             GUI.Label(
-                new Rect(Screen.width / 2 - 150, Screen.height / 2 + 50, 300, 40),
+                new Rect(Screen.width / 2 - Screen.width * 0.15f, Screen.height * 0.6f, Screen.width * 0.3f, Screen.height * 0.05f),
                 currentInteractable.GetPromptText(),
                 style
             );
