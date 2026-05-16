@@ -22,7 +22,6 @@ public class InventoryUI : MonoBehaviour {
         labelStyle.fontSize = Mathf.RoundToInt(Screen.height * 0.025f);
         labelStyle.normal.textColor = Color.white;
 
-        // Indicador siempre visible
         GUI.Label(
             new Rect(Screen.width * 0.02f, Screen.height * 0.02f, Screen.width * 0.2f, Screen.height * 0.05f),
             isOpen ? "[I] Cerrar inventario" : "[I] Ver materiales",
