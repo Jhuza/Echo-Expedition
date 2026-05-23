@@ -8,6 +8,10 @@ public class Enemigo : MonoBehaviour
     public float distanciaDeteccion = 15f;
     public float distanciaAtaque = 1.5f;
 
+    [SerializeField] private float damage = 10f;
+    [SerializeField] private float attackCooldown = 1f;
+    private float lastAttackTime;
+
     private Rigidbody rb;
     private GameObject[] planetas;
 
@@ -16,8 +20,6 @@ public class Enemigo : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         rb.useGravity = false;
         rb.constraints = RigidbodyConstraints.FreezeRotation;
-
-        // Pa que busque los planetas de misma forma que el jugador
         planetas = GameObject.FindGameObjectsWithTag("Planeta");
     }
 
@@ -32,19 +34,32 @@ public class Enemigo : MonoBehaviour
         {
             PerseguirJugador();
         }
+
+        // Ataca si está lo suficientemente cerca
+        if (distancia <= distanciaAtaque)
+        {
+            AtacarJugador();
+        }
+    }
+
+    void AtacarJugador()
+    {
+        if (Time.time >= lastAttackTime + attackCooldown)
+        {
+            lastAttackTime = Time.time;
+            if (jugador.TryGetComponent(out Health health))
+            {
+                health.TakeDamage(damage);
+            }
+        }
     }
 
     void PerseguirJugador()
     {
-        // Dirección hacia el jugador desde el plano del enemigo
         Vector3 dirHaciaJugador = (jugador.position - transform.position).normalized;
-
-        // Proyección para que no se despegue
         Vector3 dirMovimiento = Vector3.ProjectOnPlane(dirHaciaJugador, transform.up).normalized;
-
         rb.MovePosition(rb.position + dirMovimiento * velocidad * Time.fixedDeltaTime);
 
-        // Rotación para que observe al jugador
         if (dirMovimiento != Vector3.zero)
         {
             Quaternion rotObjetivo = Quaternion.LookRotation(dirMovimiento, transform.up);
