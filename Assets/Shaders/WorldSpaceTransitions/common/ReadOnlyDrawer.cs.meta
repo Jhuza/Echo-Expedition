@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 1773d7bbaeecd394194b9f6c75a4ec02
+timeCreated: 1524543853
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98207
+  packageName: World Space Fading Transitions
+  packageVersion: 1.7.1
+  assetPath: Assets/WorldSpaceTransitions/common/ReadOnlyDrawer.cs
+  uploadId: 847082

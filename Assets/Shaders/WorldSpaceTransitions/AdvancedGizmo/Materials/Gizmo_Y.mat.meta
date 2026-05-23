@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 74d42bb673294fc46a8397e44032866c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98207
+  packageName: World Space Fading Transitions
+  packageVersion: 1.7.1
+  assetPath: Assets/WorldSpaceTransitions/AdvancedGizmo/Materials/Gizmo_Y.mat
+  uploadId: 847082

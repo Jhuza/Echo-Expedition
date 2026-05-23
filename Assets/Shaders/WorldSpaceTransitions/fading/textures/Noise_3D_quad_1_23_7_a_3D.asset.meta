@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6be0341e226787141b3a81ade3bee275
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11700000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98207
+  packageName: World Space Fading Transitions
+  packageVersion: 1.7.1
+  assetPath: Assets/WorldSpaceTransitions/fading/textures/Noise_3D_quad_1_23_7_a_3D.asset
+  uploadId: 847082

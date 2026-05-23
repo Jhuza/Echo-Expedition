@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4e04c0cd39b7a03418b25a8cc04eb7d9
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98207
+  packageName: World Space Fading Transitions
+  packageVersion: 1.7.1
+  assetPath: Assets/WorldSpaceTransitions/fading_std/shaders/FadingDissolve.shader
+  uploadId: 847082

@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 838f69afe16de7746a0a9091a1ba819b
+timeCreated: 1515229172
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98207
+  packageName: World Space Fading Transitions
+  packageVersion: 1.7.1
+  assetPath: Assets/WorldSpaceTransitions/common/FPS.cs
+  uploadId: 847082

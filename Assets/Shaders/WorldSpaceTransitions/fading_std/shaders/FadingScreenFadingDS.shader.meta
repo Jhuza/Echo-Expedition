@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 392f51d17d817874bac64beff11c2040
+timeCreated: 1502227876
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98207
+  packageName: World Space Fading Transitions
+  packageVersion: 1.7.1
+  assetPath: Assets/WorldSpaceTransitions/fading_std/shaders/FadingScreenFadingDS.shader
+  uploadId: 847082

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8b1be1bd3c490f849a5f92fda03ee290
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98207
+  packageName: World Space Fading Transitions
+  packageVersion: 1.7.1
+  assetPath: Assets/WorldSpaceTransitions/fading/Editor/NoiseTextureWindow.cs
+  uploadId: 847082

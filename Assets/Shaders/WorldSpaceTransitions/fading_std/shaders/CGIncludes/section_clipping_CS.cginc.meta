@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a3d1d7aa71e9e5a478356f8054dad91d
+timeCreated: 1458481401
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98207
+  packageName: World Space Fading Transitions
+  packageVersion: 1.7.1
+  assetPath: Assets/WorldSpaceTransitions/fading_std/shaders/CGIncludes/section_clipping_CS.cginc
+  uploadId: 847082

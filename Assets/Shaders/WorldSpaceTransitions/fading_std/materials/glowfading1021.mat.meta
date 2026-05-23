@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0624fdac5d2d73f478955fdd18602d9c
+timeCreated: 1501309486
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98207
+  packageName: World Space Fading Transitions
+  packageVersion: 1.7.1
+  assetPath: Assets/WorldSpaceTransitions/fading_std/materials/glowfading1021.mat
+  uploadId: 847082
