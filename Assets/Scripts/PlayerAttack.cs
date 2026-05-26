@@ -18,10 +18,14 @@ public class PlayerAttack : MonoBehaviour {
     private void Attack() {
         lastAttackTime = Time.time;
 
-        // Esfera centrada en el jugador, golpea en todas direcciones
         Collider[] hits = Physics.OverlapSphere(transform.position, attackRange, enemyLayer);
+        Debug.Log("Colliders detectados: " + hits.Length);
+
         foreach (Collider hit in hits) {
-            if (hit.TryGetComponent(out Health health)) {
+            Debug.Log("Hit: " + hit.gameObject.name);
+            Health health = hit.GetComponentInParent<Health>();
+            Debug.Log("Health encontrado: " + health);
+            if (health != null) {
                 health.TakeDamage(damage);
             }
         }
