@@ -3,17 +3,7 @@ guid: b4a5a310262686f4d9b86f268778bbbb
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Golem_Skin
-    second: {fileID: 2100000, guid: bee203e0d12d19b4e904fd54a18edcd0, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Golem_Albedo
-    second: {fileID: 2800000, guid: 5de0ee2d7854555489f3a9dd9ca106b1, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
