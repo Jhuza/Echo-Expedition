@@ -1,136 +1,350 @@
 fileFormatVersion: 2
 guid: 90dac3abf1179b342b84e3c83039fa77
-timeCreated: 1507128961
-licenseType: Store
+AssetOrigin:
+  serializedVersion: 1
+  productId: 61548
+  packageName: Free Animated Space Man
+  packageVersion: 1.0
+  assetPath: Assets/FreeAnimatedSpaceMan/Models/space_man_model.FBX
+  uploadId: 204545
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: Arm_02_L
-    100002: Arm_02_R
-    100004: Belt_02
-    100006: Head
-    100008: Helmet_02
-    100010: Jets_02
-    100012: LCalf
-    100014: LCollarbone
-    100016: Leg_02_L
-    100018: Leg_02_R
-    100020: LFoot
-    100022: LForearm
-    100024: LPalm
-    100026: LThigh
-    100028: LUpperarm
-    100030: Neck
-    100032: PalmBone001
-    100034: PalmBone001 1
-    100036: PalmBone002
-    100038: PalmBone002 1
-    100040: Pelvis
-    100042: Plane.013
-    100044: RArmCollarbone
-    100046: RArmForearm
-    100048: RArmPalm
-    100050: RArmUpperarm
-    100052: RCalf
-    100054: RFoot
-    100056: Ribcage
-    100058: RThigh
-    100060: //RootNode
-    100062: SpaceMan_Base
-    100064: SpaceMan_Clothe
-    100066: Spine1
-    100068: Spine2
-    100070: Suit_02
-    400000: Arm_02_L
-    400002: Arm_02_R
-    400004: Belt_02
-    400006: Head
-    400008: Helmet_02
-    400010: Jets_02
-    400012: LCalf
-    400014: LCollarbone
-    400016: Leg_02_L
-    400018: Leg_02_R
-    400020: LFoot
-    400022: LForearm
-    400024: LPalm
-    400026: LThigh
-    400028: LUpperarm
-    400030: Neck
-    400032: PalmBone001
-    400034: PalmBone001 1
-    400036: PalmBone002
-    400038: PalmBone002 1
-    400040: Pelvis
-    400042: Plane.013
-    400044: RArmCollarbone
-    400046: RArmForearm
-    400048: RArmPalm
-    400050: RArmUpperarm
-    400052: RCalf
-    400054: RFoot
-    400056: Ribcage
-    400058: RThigh
-    400060: //RootNode
-    400062: SpaceMan_Base
-    400064: SpaceMan_Clothe
-    400066: Spine1
-    400068: Spine2
-    400070: Suit_02
-    2300000: Arm_02_L
-    2300002: Arm_02_R
-    2300004: Helmet_02
-    2300006: Jets_02
-    2300008: Leg_02_L
-    2300010: Leg_02_R
-    2300012: Plane.013
-    2300014: Suit_02
-    3300000: Arm_02_L
-    3300002: Arm_02_R
-    3300004: Helmet_02
-    3300006: Jets_02
-    3300008: Leg_02_L
-    3300010: Leg_02_R
-    3300012: Plane.013
-    3300014: Suit_02
-    4300000: Belt_02
-    4300002: Leg_02_L
-    4300004: Leg_02_R
-    4300006: Arm_02_L
-    4300008: Helmet_02
-    4300010: Arm_02_R
-    4300012: Suit_02
-    4300014: Jets_02
-    4300016: SpaceMan_Clothe
-    4300018: Plane.013
-    4300020: SpaceMan_Base
-    9500000: //RootNode
-    13700000: Belt_02
-    13700002: SpaceMan_Base
-    13700004: SpaceMan_Clothe
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Arm_02_L
+  - first:
+      1: 100002
+    second: Arm_02_R
+  - first:
+      1: 100004
+    second: Belt_02
+  - first:
+      1: 100006
+    second: Head
+  - first:
+      1: 100008
+    second: Helmet_02
+  - first:
+      1: 100010
+    second: Jets_02
+  - first:
+      1: 100012
+    second: LCalf
+  - first:
+      1: 100014
+    second: LCollarbone
+  - first:
+      1: 100016
+    second: Leg_02_L
+  - first:
+      1: 100018
+    second: Leg_02_R
+  - first:
+      1: 100020
+    second: LFoot
+  - first:
+      1: 100022
+    second: LForearm
+  - first:
+      1: 100024
+    second: LPalm
+  - first:
+      1: 100026
+    second: LThigh
+  - first:
+      1: 100028
+    second: LUpperarm
+  - first:
+      1: 100030
+    second: Neck
+  - first:
+      1: 100032
+    second: PalmBone001
+  - first:
+      1: 100034
+    second: PalmBone001 1
+  - first:
+      1: 100036
+    second: PalmBone002
+  - first:
+      1: 100038
+    second: PalmBone002 1
+  - first:
+      1: 100040
+    second: Pelvis
+  - first:
+      1: 100042
+    second: Plane.013
+  - first:
+      1: 100044
+    second: RArmCollarbone
+  - first:
+      1: 100046
+    second: RArmForearm
+  - first:
+      1: 100048
+    second: RArmPalm
+  - first:
+      1: 100050
+    second: RArmUpperarm
+  - first:
+      1: 100052
+    second: RCalf
+  - first:
+      1: 100054
+    second: RFoot
+  - first:
+      1: 100056
+    second: Ribcage
+  - first:
+      1: 100058
+    second: RThigh
+  - first:
+      1: 100060
+    second: //RootNode
+  - first:
+      1: 100062
+    second: SpaceMan_Base
+  - first:
+      1: 100064
+    second: SpaceMan_Clothe
+  - first:
+      1: 100066
+    second: Spine1
+  - first:
+      1: 100068
+    second: Spine2
+  - first:
+      1: 100070
+    second: Suit_02
+  - first:
+      4: 400000
+    second: Arm_02_L
+  - first:
+      4: 400002
+    second: Arm_02_R
+  - first:
+      4: 400004
+    second: Belt_02
+  - first:
+      4: 400006
+    second: Head
+  - first:
+      4: 400008
+    second: Helmet_02
+  - first:
+      4: 400010
+    second: Jets_02
+  - first:
+      4: 400012
+    second: LCalf
+  - first:
+      4: 400014
+    second: LCollarbone
+  - first:
+      4: 400016
+    second: Leg_02_L
+  - first:
+      4: 400018
+    second: Leg_02_R
+  - first:
+      4: 400020
+    second: LFoot
+  - first:
+      4: 400022
+    second: LForearm
+  - first:
+      4: 400024
+    second: LPalm
+  - first:
+      4: 400026
+    second: LThigh
+  - first:
+      4: 400028
+    second: LUpperarm
+  - first:
+      4: 400030
+    second: Neck
+  - first:
+      4: 400032
+    second: PalmBone001
+  - first:
+      4: 400034
+    second: PalmBone001 1
+  - first:
+      4: 400036
+    second: PalmBone002
+  - first:
+      4: 400038
+    second: PalmBone002 1
+  - first:
+      4: 400040
+    second: Pelvis
+  - first:
+      4: 400042
+    second: Plane.013
+  - first:
+      4: 400044
+    second: RArmCollarbone
+  - first:
+      4: 400046
+    second: RArmForearm
+  - first:
+      4: 400048
+    second: RArmPalm
+  - first:
+      4: 400050
+    second: RArmUpperarm
+  - first:
+      4: 400052
+    second: RCalf
+  - first:
+      4: 400054
+    second: RFoot
+  - first:
+      4: 400056
+    second: Ribcage
+  - first:
+      4: 400058
+    second: RThigh
+  - first:
+      4: 400060
+    second: //RootNode
+  - first:
+      4: 400062
+    second: SpaceMan_Base
+  - first:
+      4: 400064
+    second: SpaceMan_Clothe
+  - first:
+      4: 400066
+    second: Spine1
+  - first:
+      4: 400068
+    second: Spine2
+  - first:
+      4: 400070
+    second: Suit_02
+  - first:
+      23: 2300000
+    second: Arm_02_L
+  - first:
+      23: 2300002
+    second: Arm_02_R
+  - first:
+      23: 2300004
+    second: Helmet_02
+  - first:
+      23: 2300006
+    second: Jets_02
+  - first:
+      23: 2300008
+    second: Leg_02_L
+  - first:
+      23: 2300010
+    second: Leg_02_R
+  - first:
+      23: 2300012
+    second: Plane.013
+  - first:
+      23: 2300014
+    second: Suit_02
+  - first:
+      33: 3300000
+    second: Arm_02_L
+  - first:
+      33: 3300002
+    second: Arm_02_R
+  - first:
+      33: 3300004
+    second: Helmet_02
+  - first:
+      33: 3300006
+    second: Jets_02
+  - first:
+      33: 3300008
+    second: Leg_02_L
+  - first:
+      33: 3300010
+    second: Leg_02_R
+  - first:
+      33: 3300012
+    second: Plane.013
+  - first:
+      33: 3300014
+    second: Suit_02
+  - first:
+      43: 4300000
+    second: Belt_02
+  - first:
+      43: 4300002
+    second: Leg_02_L
+  - first:
+      43: 4300004
+    second: Leg_02_R
+  - first:
+      43: 4300006
+    second: Arm_02_L
+  - first:
+      43: 4300008
+    second: Helmet_02
+  - first:
+      43: 4300010
+    second: Arm_02_R
+  - first:
+      43: 4300012
+    second: Suit_02
+  - first:
+      43: 4300014
+    second: Jets_02
+  - first:
+      43: 4300016
+    second: SpaceMan_Clothe
+  - first:
+      43: 4300018
+    second: Plane.013
+  - first:
+      43: 4300020
+    second: SpaceMan_Base
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Belt_02
+  - first:
+      137: 13700002
+    second: SpaceMan_Base
+  - first:
+      137: 13700004
+    second: SpaceMan_Clothe
+  externalObjects: {}
   materials:
-    importMaterials: 0
+    materialImportMode: 2
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
     animationImportErrors: 
-    animationImportWarnings: 'Avatar Rig Configuration mis-match. Inbetween bone
-      rotation in configuration does not match rotation in animation file
-
-      space_man_model'
+    animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -138,26 +352,49 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human:
     - boneName: LThigh
       humanName: LeftUpperLeg
@@ -340,8 +577,7 @@ ModelImporter:
     - name: Leg_02_L
       parentName: LCalf
       position: {x: -0.0000000047683715, y: 8.9406965e-10, z: 0}
-      rotation: {x: -0.00000004377216, y: 0.000000044703487, z: -0.000000048428774,
-        w: 1}
+      rotation: {x: -0.00000004377216, y: 0.000000044703487, z: -0.000000048428774, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: LFoot
       parentName: LCalf
@@ -366,8 +602,7 @@ ModelImporter:
     - name: Leg_02_R
       parentName: RCalf
       position: {x: 0.0000000333786, y: -0.000000050365923, z: 0}
-      rotation: {x: -0.00000062584905, y: -0.0000007636838, z: -0.00000047683733,
-        w: 1}
+      rotation: {x: -0.00000062584905, y: -0.0000007636838, z: -0.00000047683733, w: 1}
       scale: {x: 1.0000012, y: 0.9999997, z: 0.99999887}
     - name: RFoot
       parentName: RCalf
@@ -501,22 +736,20 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 61548
-  packageName: Free Animated Space Man
-  packageVersion: 1.0
-  assetPath: Assets/FreeAnimatedSpaceMan/Models/space_man_model.FBX
-  uploadId: 204545
