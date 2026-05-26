@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3b214d52fe4d2e479f742bf8d093a27, type: 3}
   m_Name: AguaCactus
   m_EditorClassIdentifier: 
-  itemName: 
+  itemName: Agua de cactus
   icon: {fileID: 0}
-  description: 
+  description: "podr\xEDas intercambiarlo con alguien"
   tipo: 0
   damage: 30
