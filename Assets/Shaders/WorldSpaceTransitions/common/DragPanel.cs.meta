@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b895a589a253443a9ac85bafa7402a65
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98207
+  packageName: World Space Fading Transitions
+  packageVersion: 1.7.1
+  assetPath: Assets/WorldSpaceTransitions/common/DragPanel.cs
+  uploadId: 847082

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 25569ec0cf13dea4b80ab42115c6a37b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98207
+  packageName: World Space Fading Transitions
+  packageVersion: 1.7.1
+  assetPath: Assets/WorldSpaceTransitions/fading_std/ExampleScenes/multiple_spheres_globalSettings.lighting
+  uploadId: 847082

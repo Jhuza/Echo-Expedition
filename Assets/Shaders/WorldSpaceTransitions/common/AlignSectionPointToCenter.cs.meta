@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 39ab1bd15887e4345b271c54f2d78c9d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98207
+  packageName: World Space Fading Transitions
+  packageVersion: 1.7.1
+  assetPath: Assets/WorldSpaceTransitions/common/AlignSectionPointToCenter.cs
+  uploadId: 847082

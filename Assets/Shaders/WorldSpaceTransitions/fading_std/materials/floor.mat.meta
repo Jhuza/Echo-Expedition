@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2824afb9092ff1c48bf31a88a30723a0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98207
+  packageName: World Space Fading Transitions
+  packageVersion: 1.7.1
+  assetPath: Assets/WorldSpaceTransitions/fading_std/materials/floor.mat
+  uploadId: 847082

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a5432c13da90d544aafe5a19aa79a2a8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11700000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98207
+  packageName: World Space Fading Transitions
+  packageVersion: 1.7.1
+  assetPath: Assets/WorldSpaceTransitions/fading/textures/Noise_3D_pixel_3D_3D.asset
+  uploadId: 847082
