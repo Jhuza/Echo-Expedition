@@ -1023,7 +1023,7 @@ GameObject:
   - component: {fileID: 555771082}
   m_Layer: 0
   m_Name: jefe
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1590,15 +1590,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d8786e3f7d22ef4fbd7b690c255a658, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.02
+      value: -0.006
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d8786e3f7d22ef4fbd7b690c255a658, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.846
+      value: -0.968
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d8786e3f7d22ef4fbd7b690c255a658, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.03
+      value: -0.028
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d8786e3f7d22ef4fbd7b690c255a658, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1639,7 +1639,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1d8786e3f7d22ef4fbd7b690c255a658, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1967271562}
   m_SourcePrefab: {fileID: 100100000, guid: 1d8786e3f7d22ef4fbd7b690c255a658, type: 3}
 --- !u!4 &1338859839 stripped
 Transform:
@@ -2414,7 +2417,7 @@ GameObject:
   - component: {fileID: 1945490573}
   m_Layer: 6
   m_Name: enemigo
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2527,6 +2530,28 @@ MonoBehaviour:
   distanciaAtaque: 1.5
   damage: 10
   attackCooldown: 1
+--- !u!1 &1967271560 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1d8786e3f7d22ef4fbd7b690c255a658, type: 3}
+  m_PrefabInstance: {fileID: 1338859838}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1967271562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967271560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b38169d1a11e7f64dbdb50e30a5cc3b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerParent: {fileID: 0}
+  velocidadRotacion: 10
+  raycastDistancia: 1.1
+  radioDeteccionNPC: 3
+  radioSalidaNPC: 4
 --- !u!4 &72220887172986893
 Transform:
   m_ObjectHideFlags: 0
