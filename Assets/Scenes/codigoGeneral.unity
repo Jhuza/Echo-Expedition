@@ -922,7 +922,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d411d8b54d7a0a4ca9c6533a845f3c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemData: {fileID: 11400000, guid: 3304944dffaa6cc4a8860263950858a6, type: 2}
+  itemData: {fileID: 11400000, guid: 2aa28dad87d168a4b92f0017634522ad, type: 2}
 --- !u!65 &1464770369
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1260,6 +1260,7 @@ GameObject:
   - component: {fileID: 1718778167}
   - component: {fileID: 1718778169}
   - component: {fileID: 1718778168}
+  - component: {fileID: 1718778170}
   m_Layer: 0
   m_Name: jugador
   m_TagString: Untagged
@@ -1452,6 +1453,24 @@ MonoBehaviour:
   maxHP: 100
   mostrarUI: 1
   damageNumberPrefab: {fileID: 0}
+--- !u!114 &1718778170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718778160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5250ed619e5249f49876481bf5dabd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rangoDeteccion: 8
+  cooldown: 0.5
+  capasEnemigo:
+    serializedVersion: 2
+    m_Bits: 64
+  efectoExplosionPrefab: {fileID: 0}
 --- !u!1 &1874815657
 GameObject:
   m_ObjectHideFlags: 0
