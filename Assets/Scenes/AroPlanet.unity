@@ -1010,8 +1010,111 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4659484628369111406, guid: e30ed2686ddb78a42aaab71c30429b7f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 916726060593617013}
+    - targetCorrespondingSourceObject: {fileID: 4659484628369111406, guid: e30ed2686ddb78a42aaab71c30429b7f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 916726060593617012}
+    - targetCorrespondingSourceObject: {fileID: 4659484628369111406, guid: e30ed2686ddb78a42aaab71c30429b7f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 916726060593617011}
+    - targetCorrespondingSourceObject: {fileID: 4659484628369111406, guid: e30ed2686ddb78a42aaab71c30429b7f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 916726060593617010}
+    - targetCorrespondingSourceObject: {fileID: 4659484628369111406, guid: e30ed2686ddb78a42aaab71c30429b7f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 916726060593617009}
   m_SourcePrefab: {fileID: 100100000, guid: e30ed2686ddb78a42aaab71c30429b7f, type: 3}
+--- !u!1 &916726060593617008 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4659484628369111406, guid: e30ed2686ddb78a42aaab71c30429b7f, type: 3}
+  m_PrefabInstance: {fileID: 916726060593617007}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &916726060593617009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916726060593617008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5250ed619e5249f49876481bf5dabd68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rangoDeteccion: 8
+  cooldown: 0.5
+  capasEnemigo:
+    serializedVersion: 2
+    m_Bits: 64
+  efectoExplosionPrefab: {fileID: 0}
+--- !u!114 &916726060593617010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916726060593617008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03bdf2484f1f09f41b6e1b583c83a3bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 25
+  attackRange: 1.5
+  attackCooldown: 0.5
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 64
+--- !u!114 &916726060593617011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916726060593617008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257003f5e130a6e4a95057e56f5e1113, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHP: 100
+  mostrarUI: 1
+  damageNumberPrefab: {fileID: 0}
+--- !u!114 &916726060593617012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916726060593617008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56654c3bcef76e0448c9e1bb4bbe8ae8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactRange: 2
+  interactLayer:
+    serializedVersion: 2
+    m_Bits: 64
+--- !u!114 &916726060593617013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916726060593617008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a4a8dc669429314dbd2a4c5d12f422e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetas: []
+  velocidad: 5
+  fuerzaSalto: 7
+  fuerzaGravedad: 20
 --- !u!1 &919132149606447464
 GameObject:
   m_ObjectHideFlags: 0
