@@ -26858,7 +26858,6 @@ GameObject:
   - component: {fileID: 1443490781}
   - component: {fileID: 1443490780}
   - component: {fileID: 1443490779}
-  - component: {fileID: 1443490778}
   m_Layer: 0
   m_Name: esfera
   m_TagString: Untagged
@@ -26866,19 +26865,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1443490778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1443490777}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d411d8b54d7a0a4ca9c6533a845f3c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemData: {fileID: 11400000, guid: 8e85248095fc4894088afc9502c8412a, type: 2}
 --- !u!135 &1443490779
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -27407,8 +27393,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1478637897}
-  - component: {fileID: 1478637896}
-  - component: {fileID: 1478637895}
   m_Layer: 0
   m_Name: GameManagerInventory
   m_TagString: Untagged
@@ -27416,33 +27400,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1478637895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1478637894}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a4141e65e2957243846550a09fb47dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inventory: {fileID: 0}
-  isOpen: 0
---- !u!114 &1478637896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1478637894}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 287b09a8179521c40b1d133064a1ee3a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  items: []
 --- !u!4 &1478637897
 Transform:
   m_ObjectHideFlags: 0
@@ -30856,10 +30813,6 @@ GameObject:
   - component: {fileID: 1718778164}
   - component: {fileID: 1718778163}
   - component: {fileID: 1718778162}
-  - component: {fileID: 1718778161}
-  - component: {fileID: 1718778167}
-  - component: {fileID: 1718778169}
-  - component: {fileID: 1718778168}
   m_Layer: 0
   m_Name: jugador
   m_TagString: Untagged
@@ -30867,25 +30820,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1718778161
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1718778160}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e946038124cc8149b9830db46f30736, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  planetas:
-  - {fileID: 335736235}
-  velocidad: 5
-  fuerzaSalto: 7
-  fuerzaGravedad: 20
-  rb: {fileID: 0}
-  estaEnSuelo: 0
 --- !u!54 &1718778162
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -31005,55 +30939,6 @@ Transform:
   - {fileID: 330585546}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -183.635, z: 0}
---- !u!114 &1718778167
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1718778160}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88ac1bf5181686748b3366cbbb9731f4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactRange: 2
-  interactLayer:
-    m_Bits: 64
---- !u!114 &1718778168
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1718778160}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0760a558649cf0f49a67835da3ba970b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 20
-  attackRange: 1.5
-  attackCooldown: 0.5
-  enemyLayer:
-    m_Bits: 64
-  lastAttackTime: 0
---- !u!114 &1718778169
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1718778160}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c258b05a8ceeaaa47bbdebbd79261c24, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHP: 100
-  mostrarUI: 1
-  damageNumberPrefab: {fileID: 0}
-  currentHP: 0
 --- !u!1 &1720497508
 GameObject:
   m_ObjectHideFlags: 0
