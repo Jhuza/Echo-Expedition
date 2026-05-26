@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 76b49e34baf469d4b9b3cf08894288ef
+=======
+guid: b6fbbadb32a759c4c86376dbdb6dd174
+>>>>>>> test/lobby-assets
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
