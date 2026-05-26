@@ -165,7 +165,7 @@
     },
     "com.unity.render-pipelines.core": {
       "version": "17.0.4",
-      "depth": 0,
+      "depth": 1,
       "source": "builtin",
       "dependencies": {
         "com.unity.burst": "1.8.20",
@@ -213,19 +213,8 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.unity.services.analytics": {
-      "version": "6.0.3",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.ugui": "1.0.0",
-        "com.unity.services.core": "1.12.4",
-        "com.unity.modules.jsonserialize": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.services.core": {
-      "version": "1.14.0",
+    "com.unity.shadergraph": {
+      "version": "17.0.4",
       "depth": 1,
       "source": "registry",
       "dependencies": {
