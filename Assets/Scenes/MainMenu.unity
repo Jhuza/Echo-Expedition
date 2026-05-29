@@ -588,8 +588,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 3524797080914132619, guid: 1aca2f0e58ac09b409c2368916d180aa, type: 3}
-    m_PressedSprite: {fileID: 8293860758239496029, guid: dd307c1bb466ba246805ebd6376cd0c2, type: 3}
+    m_HighlightedSprite: {fileID: 6914396491685881764, guid: b5e723db6b646d54aafde27ae228a2a3, type: 3}
+    m_PressedSprite: {fileID: 4984979345169462388, guid: d68a5cb5eb1b6da44ade03c7b172c613, type: 3}
     m_SelectedSprite: {fileID: 4058887251733894305, guid: dcd7c8fbc15ab0a4ea3dd8809813460a, type: 3}
     m_DisabledSprite: {fileID: -2155003596835888030, guid: d258919f31693444aa33379f254573b3, type: 3}
   m_AnimationTriggers:
@@ -628,14 +628,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.77672946, g: 0.94420063, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6575531851636242043, guid: 37790a743038cf442b1b863a6f2ffae7, type: 3}
+  m_Sprite: {fileID: 6297508874542994161, guid: 7b82cf8aabdeaac48b581f51b3d03788, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -731,8 +731,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -6, y: -18}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -4, y: -10}
+  m_SizeDelta: {x: -324.19, y: -94.478}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1091099788
 MonoBehaviour:
@@ -783,7 +783,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 144
+  m_fontSize: 109.55
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1019,8 +1019,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 3524797080914132619, guid: 1aca2f0e58ac09b409c2368916d180aa, type: 3}
-    m_PressedSprite: {fileID: 8293860758239496029, guid: dd307c1bb466ba246805ebd6376cd0c2, type: 3}
+    m_HighlightedSprite: {fileID: 6914396491685881764, guid: b5e723db6b646d54aafde27ae228a2a3, type: 3}
+    m_PressedSprite: {fileID: 4984979345169462388, guid: d68a5cb5eb1b6da44ade03c7b172c613, type: 3}
     m_SelectedSprite: {fileID: 4058887251733894305, guid: dcd7c8fbc15ab0a4ea3dd8809813460a, type: 3}
     m_DisabledSprite: {fileID: -2155003596835888030, guid: d258919f31693444aa33379f254573b3, type: 3}
   m_AnimationTriggers:
@@ -1059,14 +1059,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.77672946, g: 0.94420063, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6575531851636242043, guid: 37790a743038cf442b1b863a6f2ffae7, type: 3}
+  m_Sprite: {fileID: 6297508874542994161, guid: 7b82cf8aabdeaac48b581f51b3d03788, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1118,8 +1118,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -6, y: -18}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -4, y: -15}
+  m_SizeDelta: {x: -50.763, y: -14.794}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1426088236
 MonoBehaviour:
@@ -1170,7 +1170,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 107.35
+  m_fontSize: 99.55
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1602,8 +1602,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -6, y: -18}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0.000030517578, y: -10}
+  m_SizeDelta: {x: -257.07, y: -74.917}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &313897535691643960
 GameObject:
@@ -1671,8 +1671,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 3524797080914132619, guid: 1aca2f0e58ac09b409c2368916d180aa, type: 3}
-    m_PressedSprite: {fileID: 8293860758239496029, guid: dd307c1bb466ba246805ebd6376cd0c2, type: 3}
+    m_HighlightedSprite: {fileID: 6914396491685881764, guid: b5e723db6b646d54aafde27ae228a2a3, type: 3}
+    m_PressedSprite: {fileID: 4984979345169462388, guid: d68a5cb5eb1b6da44ade03c7b172c613, type: 3}
     m_SelectedSprite: {fileID: 4058887251733894305, guid: dcd7c8fbc15ab0a4ea3dd8809813460a, type: 3}
     m_DisabledSprite: {fileID: -2155003596835888030, guid: d258919f31693444aa33379f254573b3, type: 3}
   m_AnimationTriggers:
@@ -1753,7 +1753,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 144
+  m_fontSize: 108.2
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1838,14 +1838,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.77672946, g: 0.94420063, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6575531851636242043, guid: 37790a743038cf442b1b863a6f2ffae7, type: 3}
+  m_Sprite: {fileID: 6297508874542994161, guid: 7b82cf8aabdeaac48b581f51b3d03788, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
