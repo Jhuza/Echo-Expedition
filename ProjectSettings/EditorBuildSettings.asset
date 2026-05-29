@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/codigoLobby.unity
     guid: 1ffb0293571da2d49966561e1c1fc8d2
   - enabled: 1
-    path: Assets/Scenes/Title_Page_Demo.unity
+    path: Assets/Scenes/MainMenu.unity
     guid: f3ccc290354821d45abd01f0af7eb0bf
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
