@@ -1,22 +1,49 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class CollectibleOrb : MonoBehaviour
+public class PauseMenu : MonoBehaviour
 {
-    public int points = 10;
-    public AudioClip collectSFX;
+    public GameObject pauseMenuUI;
 
-    private void OnTriggerEnter(Collider other)
+    bool isPaused = false;
+
+    void Update()
     {
-        if (other.CompareTag("Player"))
+        if (Input.GetKeyDown(KeyCode.B))
         {
-            ScoreManager.Instance.AddScore(points);
-
-            AudioSource.PlayClipAtPoint(
-                collectSFX,
-                transform.position
-            );
-
-            Destroy(gameObject);
+            TogglePause();
         }
+    }
+
+    public void TogglePause()
+    {
+        if (isPaused)
+        {
+            Resume();
+        }
+        else
+        {
+            Pause();
+        }
+    }
+
+    public void Resume()
+    {
+        pauseMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
+
+    void Pause()
+    {
+        pauseMenuUI.SetActive(true);
+        Time.timeScale = 0f;
+        isPaused = true;
+    }
+
+    public void GoToMainMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("MainMenu");
     }
 }
