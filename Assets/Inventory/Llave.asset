@@ -11,9 +11,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f3b214d52fe4d2e479f742bf8d093a27, type: 3}
   m_Name: Llave
-  m_EditorClassIdentifier: 
-  itemName: llave
-  icon: {fileID: 0}
-  description: "se podr\xEDa usar para un cofre"
+  m_EditorClassIdentifier:
+  itemName: Llave
+  icon: {fileID: 4897229598015104345, guid: 464f1e61e04999141aa4cd924e10a76f, type: 3}
+  description: "Se podr\xEDa usar para un cofre"
   tipo: 0
   damage: 30

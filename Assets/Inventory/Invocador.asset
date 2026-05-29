@@ -11,9 +11,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f3b214d52fe4d2e479f742bf8d093a27, type: 3}
   m_Name: Invocador
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   itemName: Invocador
-  icon: {fileID: 0}
-  description: 
+  icon: {fileID: 5008638199189187251, guid: 506efd3325dbf894187f5a88a3a6a664, type: 3}
+  description: Llama a tus aliados
   tipo: 0
   damage: 30

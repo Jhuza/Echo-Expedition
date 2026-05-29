@@ -13,6 +13,7 @@ public class Inventory : MonoBehaviour {
     public void AddItem(ItemData item) {
         items.Add(item);
         Debug.Log($"Inventario: {items.Count} items");
+        if (HUDManager.Instance != null) HUDManager.Instance.RefreshInventory();
     }
 
     public List<ItemData> GetItems() => items;

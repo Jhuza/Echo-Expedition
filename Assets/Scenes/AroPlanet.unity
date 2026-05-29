@@ -1636,6 +1636,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 78a2edd940927a447bde9ef743ba5be0, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 1d8786e3f7d22ef4fbd7b690c255a658, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2552,6 +2556,70 @@ MonoBehaviour:
   raycastDistancia: 1.1
   radioDeteccionNPC: 3
   radioSalidaNPC: 4
+--- !u!1 &9001001001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9001001002}
+  - component: {fileID: 9001001003}
+  m_Layer: 0
+  m_Name: HUDManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9001001002
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9001001001}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9001001003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9001001001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelBackgroundSprite: {fileID: -2067070190103137407, guid: 51e8cb52d3793474d877b232da872c46, type: 3}
+  slotBackgroundSprite: {fileID: 8799648043127482069, guid: 7188ecd56566e3846a9803c1c0409e7a, type: 3}
+  slotEmptySprite: {fileID: 0}
+  heartFullSprite: {fileID: 2715409951904314068, guid: 97da73e1e810d264792bc5a70ff6e6b4, type: 3}
+  heartEmptySprite: {fileID: -5618736610035063647, guid: 2eb5acfa3a7bf9f408b97f33a890cf8c, type: 3}
+  bombIconSprite: {fileID: 8040925045608560681, guid: cb1e1ce02881d974db95da3329c697ad, type: 3}
+  inventoryIconSprite: {fileID: 8981785834386775319, guid: a7e845fda03b75d4c95cff240117215b, type: 3}
+  promptPanelSprite: {fileID: -3203189459503294549, guid: deead811e5fac24439df8151f614d12e, type: 3}
+  heartAmountPrefab: {fileID: 1581670277632774138, guid: 5fd6faea628ae3d49b7ba3b824456ca6, type: 3}
+  bombAmountPrefab: {fileID: 6930159949810745995, guid: ec1be0d1c729b9945b2775e62ddf4061, type: 3}
+  font: {fileID: 11400000, guid: b633915a7eab00342a258e5c2f50a75f, type: 2}
+  heartCount: 5
+  inventoryColumns: 5
+  inventoryRows: 4
+  inventorySize: {x: 1100, y: 700}
+  slotSize: {x: 140, y: 140}
+  slotSpacing: 18
+  toggleInventoryKey: 105
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  bombTextColor: {r: 1, g: 0.65, b: 0.15, a: 1}
 --- !u!4 &72220887172986893
 Transform:
   m_ObjectHideFlags: 0
@@ -3372,3 +3440,4 @@ SceneRoots:
   - {fileID: 1148421184}
   - {fileID: 237791172}
   - {fileID: 555771085}
+  - {fileID: 9001001002}
