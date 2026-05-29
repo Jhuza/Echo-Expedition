@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Planeta
   - Enemy
+  - Collectible
   layers:
   - Default
   - TransparentFX
