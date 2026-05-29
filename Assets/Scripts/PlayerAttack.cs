@@ -35,16 +35,4 @@ public class PlayerAttack : MonoBehaviour {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, attackRange);
     }
-
-    private void OnGUI() {
-        GUIStyle style = new GUIStyle();
-        style.fontSize = Mathf.RoundToInt(Screen.height * 0.025f);
-        style.normal.textColor = Color.white;
-
-        GUI.Label(
-            new Rect(Screen.width * 0.02f, Screen.height * 0.16f, Screen.width * 0.2f, Screen.height * 0.05f),
-            "[F] Atacar",
-            style
-        );
-    }
 }

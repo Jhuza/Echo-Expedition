@@ -9,9 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3eae2ce811001aa478ed09e951c26e2a, type: 3}
+  m_Script: {fileID: 11500000, guid: f3b214d52fe4d2e479f742bf8d093a27, type: 3}
   m_Name: cubo
-  m_EditorClassIdentifier: 
-  itemName: cubo
-  icon: {fileID: 0}
-  description: 
+  m_EditorClassIdentifier:
+  itemName: Cubo
+  icon: {fileID: 5731700047478473940, guid: d8e4740d25fd92c428289af0088208d0, type: 3}
+  description: Una gema cuadrada
+  tipo: 0
+  damage: 0

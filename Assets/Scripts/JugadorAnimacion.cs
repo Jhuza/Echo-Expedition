@@ -85,15 +85,17 @@ public class JugadorAnimacion : MonoBehaviour
 
     void ActualizarMovimiento()
     {
-        float h = Input.GetAxis("Horizontal");
-        float v = Input.GetAxis("Vertical");
         float hRaw = Input.GetAxisRaw("Horizontal");
         float vRaw = Input.GetAxisRaw("Vertical");
 
         bool hayInput = Mathf.Abs(hRaw) > 0.01f || Mathf.Abs(vRaw) > 0.01f;
 
-        // Corriendo: hay input, está en suelo, y no está en modo hablar
-        bool corriendo = hayInput && estaEnSuelo && !enModoHablar;
+        // Corriendo: basta con que haya input y no estemos hablando.
+        // No exigimos estaEnSuelo porque en planetas esféricos el raycast puede
+        // fallar un frame (orientación con Slerp) y eso cortaría la animación.
+        // Si el personaje está en el aire, el animator ya prioriza Jump/Run Jump
+        // independientemente del valor de isRunning.
+        bool corriendo = hayInput && !enModoHablar;
         anim.SetBool(HashIsRunning, corriendo);
     }
 

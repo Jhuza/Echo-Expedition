@@ -22,9 +22,10 @@ public class ChestInteractable : MonoBehaviour, Interactable {
 
         // Agrega el contenido directamente al inventario
         if (contenido != null) {
-            Inventory.Instance.AddItem(contenido);
+            Inventory.Instance.AddItem(contenido); // ya refresca HUD
             Debug.Log($"¡Cofre abierto! Obtuviste: {contenido.itemName}");
         } else {
+            HUDManager.Instance?.RefreshInventory(); // por el Remove de la llave
             Debug.Log("¡Cofre abierto!");
         }
     }

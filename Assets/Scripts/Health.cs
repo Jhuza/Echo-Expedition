@@ -10,6 +10,7 @@ public class Health : MonoBehaviour {
 
     private void Start() {
         currentHP = maxHP;
+        PushToHUD();
     }
 
     public void TakeDamage(float amount) {
@@ -21,8 +22,16 @@ public class Health : MonoBehaviour {
             num.GetComponent<DamageNumber>().Setup(amount);
         }
 
+        PushToHUD();
+
         if (currentHP <= 0) {
             Die();
+        }
+    }
+
+    private void PushToHUD() {
+        if (mostrarUI && HUDManager.Instance != null) {
+            HUDManager.Instance.UpdateHealth(currentHP, maxHP);
         }
     }
 
@@ -33,18 +42,4 @@ public class Health : MonoBehaviour {
 
     public float GetHP() => currentHP;
     public float GetMaxHP() => maxHP;
-
-    private void OnGUI() {
-        if (!mostrarUI) return;
-
-        GUIStyle style = new GUIStyle();
-        style.fontSize = Mathf.RoundToInt(Screen.height * 0.04f); // ← más grande
-        style.normal.textColor = Color.white;
-
-        GUI.Label(
-            new Rect(Screen.width * 0.02f, Screen.height * 0.08f, Screen.width * 0.25f, Screen.height * 0.06f),
-            $"❤ HP: {currentHP}/{maxHP}",
-            style
-        );
-    }
 }

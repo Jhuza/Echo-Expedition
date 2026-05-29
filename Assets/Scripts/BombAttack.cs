@@ -9,6 +9,10 @@ public class BombAttack : MonoBehaviour {
 
     private float lastUseTime;
 
+    private void Start() {
+        PushBombCountToHUD();
+    }
+
     private void Update() {
         if (Input.GetKeyDown(KeyCode.Q) && Time.time >= lastUseTime + cooldown) {
             UsarBomba();
@@ -52,25 +56,20 @@ public class BombAttack : MonoBehaviour {
             Instantiate(efectoExplosionPrefab, enemigoMasCercano.transform.position, Quaternion.identity);
         }
 
+        PushBombCountToHUD();
+        HUDManager.Instance?.RefreshInventory();
+
         Debug.Log($"Bomba usada en {enemigoMasCercano.gameObject.name}. Bombas restantes: {Inventory.Instance.ContarBombas()}");
+    }
+
+    private void PushBombCountToHUD() {
+        if (HUDManager.Instance != null && Inventory.Instance != null) {
+            HUDManager.Instance.UpdateBombCount(Inventory.Instance.ContarBombas());
+        }
     }
 
     private void OnDrawGizmosSelected() {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, rangoDeteccion);
-    }
-
-    private void OnGUI() {
-        GUIStyle style = new GUIStyle();
-        style.fontSize = Mathf.RoundToInt(Screen.height * 0.025f);
-        style.normal.textColor = Color.white;
-
-        int bombas = Inventory.Instance != null ? Inventory.Instance.ContarBombas() : 0;
-
-        GUI.Label(
-            new Rect(Screen.width * 0.02f, Screen.height * 0.22f, Screen.width * 0.2f, Screen.height * 0.05f),
-            $"[Q] Bomba ({bombas})",
-            style
-        );
     }
 }

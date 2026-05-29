@@ -11,9 +11,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f3b214d52fe4d2e479f742bf8d093a27, type: 3}
   m_Name: Bomba
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   itemName: Bomba
-  icon: {fileID: 0}
+  icon: {fileID: 8040925045608560681, guid: cb1e1ce02881d974db95da3329c697ad, type: 3}
   description: Pum kaplow
   tipo: 1
   damage: 30

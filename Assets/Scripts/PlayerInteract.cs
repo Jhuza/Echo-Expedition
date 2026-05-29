@@ -10,6 +10,12 @@ public class PlayerInteract : MonoBehaviour {
     private void Update() {
         LookForInteractable();
 
+        if (currentInteractable != null) {
+            HUDManager.Instance?.ShowPrompt(currentInteractable.GetPromptText());
+        } else {
+            HUDManager.Instance?.HidePrompt();
+        }
+
         if (Input.GetKeyDown(KeyCode.E) && currentInteractable != null) {
             currentInteractable.Interact();
         }
@@ -39,20 +45,5 @@ public class PlayerInteract : MonoBehaviour {
     private void OnDrawGizmosSelected() {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, interactRange);
-    }
-
-    private void OnGUI() {
-        if (currentInteractable != null) {
-            GUIStyle style = new GUIStyle();
-            style.fontSize = Mathf.RoundToInt(Screen.height * 0.03f);
-            style.normal.textColor = Color.white;
-            style.alignment = TextAnchor.MiddleCenter;
-
-            GUI.Label(
-                new Rect(Screen.width / 2 - Screen.width * 0.15f, Screen.height * 0.6f, Screen.width * 0.3f, Screen.height * 0.05f),
-                currentInteractable.GetPromptText(),
-                style
-            );
-        }
     }
 }
