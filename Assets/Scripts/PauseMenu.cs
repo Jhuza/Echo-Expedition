@@ -9,16 +9,21 @@ public class PauseMenu : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.B))
         {
-            if (isPaused)
-            {
-                Resume();
-            }
-            else
-            {
-                Pause();
-            }
+            TogglePause();
+        }
+    }
+
+    public void TogglePause()
+    {
+        if (isPaused)
+        {
+            Resume();
+        }
+        else
+        {
+            Pause();
         }
     }
 
